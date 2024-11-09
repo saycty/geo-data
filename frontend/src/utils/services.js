@@ -1,5 +1,5 @@
 import axios from "axios";
-export const baseUrl = "http://localhost:8000/api"; //our backend api
+export const baseUrl = "https://geo-data-backend-icvk.onrender.com/api"; //our backend api
 
 /**
  * Makes a POST request to the server with the given URL and body, and
