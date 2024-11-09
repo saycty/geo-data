@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useContext } from "react";
 import { Alert, Button, Form, Row, Col, Stack } from "react-bootstrap";
-import { AuthContext } from "../context/AuthContext";
+import { AuthContext } from "../context/Authcontext";
 const Login = () => {
   const { loginUser, loginError, loginInfo, updateLoginInfo, isLoginLoading } =
     useContext(AuthContext);

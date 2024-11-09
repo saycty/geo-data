@@ -5,7 +5,7 @@ import Login from "./pages/login.jsx";
 import NavBar from "./components/Navbar.jsx";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container } from "react-bootstrap";
-import { AuthContext } from "./context/AuthContext.jsx";
+import { AuthContext } from "./context/Authcontext.jsx";
 import Dashboard from "./pages/dashboard.jsx";
 import Mapbox from "./pages/mapbox.jsx";
 function App() {
